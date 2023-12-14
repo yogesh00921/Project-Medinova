@@ -1,0 +1,360 @@
+/** Responsive **/
+@media screen and (max-width:1024px){
+
+    .bottom-header-left-div{
+        font-size: 2rem;
+    }
+    .bottom-header-right-div ul li{
+        padding: 0px 10px;
+    }
+    .hero-section-heading{
+        height: 400px;
+        padding: 60px 40px;
+    }
+    .hero-section-heading h1{
+        font-size: 3rem;
+        padding: 20px 0px 30px 0px;
+    }
+    .hero-section-bottom-div span{
+        padding: 15px 34px;
+    margin-right: 15px;
+    font-size: 0.75rem;
+    }
+    .about-section{
+        flex-direction: column;
+        height: auto;
+    } 
+    .about-section-right-img-div {
+        width: 80%;
+    }
+    .about-section-left-div {
+        width: 80%;
+        margin-top: 15px;
+    }
+    .service-section-heading h2{
+        font-size: 2.4rem;
+    } 
+    .service-section-details-box .box p{
+        line-height: 16px;
+    padding: 0px 25px ;
+    }
+    .service-section-details-box .box h3{
+        font-size: 1.2rem;
+    }
+    .appointment-section-left-div h2{
+        padding: 6px 0px;
+     font-size: 2.4rem;
+    }
+    .appointment-section-left-div{
+        width: 50%;
+    } 
+    .appointment-section-left-bottom-div span{
+        padding: 12px 26px;
+    margin-right: 10px;
+    font-size: 0.75rem;
+    }
+    .appointment-section-right-div h2{
+        font-size: 1.6rem;
+        margin-top: 52px;
+    }
+    .appointment-section-right-div input{
+        margin: 4px 4px 0px 26px;
+    }
+    .appointment-section-right-div button{
+        margin: 14px 0px 0px 28px;
+    }
+    .appointment-section-right-div{
+        width: 40%;
+    }
+    .package-section-heading{
+        width: 40%;
+    }
+    .package-section-heading h2{
+        font-size: 2.4rem;
+    }
+    .package-section-box{
+        width: 30%;
+    }
+    .package-section-box-content p{
+        padding: 20px 18px 12px 20px;
+    font-size: 0.75rem;
+    line-height: 26px;
+    }
+    .package-section-box-img p {
+        top: 12px;
+    }
+    .profile-section-heading {
+        width: 40%;
+    }
+    .profile-section-heading h2{
+        font-size: 2.2rem;
+    }
+    .find-section-content{
+        width: 60%;
+        padding-bottom: 20px;
+    }
+    .find-section-content h2{
+        font-size: 2.4rem;
+        padding-bottom: 12px;
+    }
+    .head{
+        font-size: 2.4rem;
+    margin: 12px 140px;
+    }
+    .testimonial-section{
+        height: auto;
+    }
+    .testimonial-img{
+        width: 20%;
+    }
+    .testimonial-content{
+        font-size: 1rem;
+    padding: 15px 130px;
+    line-height: 30px;
+    }
+    .blog-section-heading{
+        width:50%
+    }
+    .blog-section-heading h2{
+        font-size: 2.5rem;
+    }
+    .blog-section-box{
+        width: 26%;
+    }
+    .blog-img{
+        height: 140px;
+    }
+    .blog-end-div {
+        margin-top: 8px;
+    }
+    .blog-end-img{
+        margin: 0px 6px 0px 8px;
+        width: 16%;
+    }
+    .footer-div{
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .foot-box{
+        width: 80%;
+        height: auto;
+        margin: 30px 0px 0px 50px;
+    }
+    .foot-box p{
+        font-size: 1rem;
+    }
+    .foot-links ul a{
+        font-size: 1rem;
+    }
+    .news input{
+        padding: 16px 8px;
+    }
+    .news button{
+        padding: 16px 20px ;
+    }
+    .social-icon{
+        margin-bottom: 24px;
+    }
+    .copy{
+        margin-left: 50px;
+    }
+    .design{
+        margin-right :50px;
+    }
+
+}
+
+@media screen and (max-width:764px){
+    .top-header{
+        display: none;
+    }
+    .bottom-header-left-div{
+        font-size: 2rem;
+    }
+    .bottom-header-right-div{
+        display: none;
+    }
+    .hero-section-heading{
+        height: 210px;
+        padding: 10px 10px;
+    }
+    .hero-section-heading span {
+        font-size: 0.75rem;
+    }
+    .hero-section-heading h1{
+        padding-top: 10px;
+        font-size: 1.5rem;
+    }
+    .hero-section-bottom-div span{
+        font-size: 0.60rem;
+        padding: 10px 14px;
+        margin-right: 5px;
+    
+    }
+    .about-section-left-div{
+        height: auto;
+    }
+    .about-section-right-img-div {
+        width: 95%;
+        height: 250px;
+    }
+    .about-section-right-div-icon{
+        flex-direction: column;
+    }
+    .service-section-heading {
+        width: 80%;
+    }
+    .service-section-details-box{
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+    .service-section{
+        height: auto;
+    }
+    .service-section-details-box .box{
+        width: 90%;
+    }
+    .box p {
+        line-height: 28px;
+        font-size: 0.85rem;
+    }
+    .appointment-section{
+        flex-direction: column;
+    height: auto;
+    align-items: baseline;
+    }
+    .appointment-section-left-div {
+        width: 90%;
+        padding: 32px 0px 0px 0px;
+    height: auto;
+    margin-bottom: 35px;
+    }
+    .appointment-section-left-div h2{
+        font-size: 2.2rem;
+    }
+    .appointment-section-left-div p{
+        font-size: 0.85rem;
+        line-height: 24px;
+        padding-right: 26px;
+    }
+    .appointment-section-left-bottom-div span {
+        padding: 15px 34px;
+    }
+    .appointment-section-right-div{
+        width: 90%;
+    margin-left: 20px;
+    margin-bottom: 26px;
+    }
+    .package-section-heading {
+        width: 90%;
+    }
+    .package-section {
+        height: auto;
+    }
+    .package-section-curve-div{
+        display: none;
+    }
+    .package-section-box-div{
+        height: auto;
+        flex-direction: column;
+    }
+    .package-section-box {
+        width: 100%;
+    }
+    .package-section-box-img{
+        height: 180px;
+    }
+    .package-section-box-content{
+        height: 200px;
+    }
+    .package-section-box-img p {
+        top: 45px;
+    }
+    .package-section-box-content button{
+        margin-top: 16px;
+    }
+    .profile-section-heading {
+        width: 80%;
+    }
+    .profile-section-div {
+        flex-direction: column;
+    }
+    .profile-section{
+        height: auto;
+    }
+    .profile-section-box {
+        width: 90%;
+        margin-left: 16px;
+        margin-bottom: 30px;
+    }
+    .profile-section-box-img{
+        width: 100%;
+    }
+    .profile-section-box-content p{
+        font-size: 0.90rem;
+    }
+    .find-section-content {
+        width: 90%;
+    }
+    .find-section button{
+        padding: 12px 0px;
+    width: 20%;
+    }
+    select{
+        padding: 12px 6px 12px 8px;
+    }
+    .find-section input{
+        padding: 13px 5px;
+    width: 42%;
+    }
+    .head{
+        margin: 12px 25px;
+    }
+    .testimonial-section{
+        height: auto;
+    }
+    .testimonial-img{
+        width: 42%;
+    }
+    .testimonial-content{
+        padding: 15px 50px;
+    }
+    .blog-section-heading {
+        width: 95%;
+    }
+    .blog-section{
+        height: auto;
+    }
+    .blog-section-box-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-section-box {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .blog-img {
+        height: 196px;
+    }
+    .blog-end-img{
+        width: 8%;
+        height: 26px;
+    }
+    .blog-end-icon {
+        margin-left: 100px;
+    }
+    .foot-box {
+        margin: 30px 0px 0px 24px;
+    }
+    .copy {
+        margin-left: 12px;
+    }
+    .foot-copy{
+        font-size: 0.70rem;
+    }
+    .design {
+        margin-right: 6px;
+    }
+
+}
