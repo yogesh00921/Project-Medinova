@@ -340,6 +340,11 @@ font-size: 0.75rem;
     background-color: #23bdf9d1;
     color: white;
     font-size: 0.85rem;
+    cursor: pointer;
+}
+.appointment-section-right-div button:hover{
+    background-color: #00003c;
+    transition: all ease-in 0.2s;
 }
 .appointment-section-right-div input::placeholder{
     color: grey;
@@ -461,6 +466,11 @@ font-size: 0.75rem;
     background-color: #23bdf9d1;
     color: white;
     font-size: 0.80rem;
+}
+.package-section-box-content button:hover{
+    background-color: #00003c;
+    transition: all ease-in 0.2s;
+    cursor: pointer;
 }
 
 /* Profile Section */
